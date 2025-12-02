@@ -1,0 +1,82 @@
+* {
+    transition: background-color .3s ease, color .3s ease, border-color .3s ease;
+}
+
+.nav-item.active {
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.nav-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Dark Mode Styles */
+body.dark {
+    background: linear-gradient(to bottom right, #1f2937, #111827);
+}
+
+body.dark header {
+    background-color: #1f2937;
+    border-bottom: 1px solid #374151;
+}
+
+body.dark .bg-white {
+    background-color: #1f2937;
+    border-color: #374151;
+}
+
+body.dark .text-gray-800 {
+    color: #f9fafb;
+}
+
+body.dark .text-gray-600 {
+    color: #d1d5db;
+}
+
+body.dark .text-gray-500 {
+    color: #9ca3af;
+}
+
+body.dark .bg-gray-50 {
+    background-color: #374151;
+}
+
+body.dark .bg-gray-100 {
+    background-color: #4b5563;
+}
+
+body.dark .border-gray-100 {
+    border-color: #374151;
+}
+
+body.dark .border-gray-200 {
+    border-color: #4b5563;
+}
+
+body.dark .hover\:bg-gray-50:hover {
+    background-color: #374151;
+}
+
+body.dark .hover\:bg-gray-100:hover {
+    background-color: #4b5563;
+}
+
+body.dark input {
+    background-color: #374151;
+    border-color: #4b5563;
+    color: #f9fafb;
+}
+
+body.dark input::placeholder {
+    color: #9ca3af;
+}
+
+body.dark .divide-gray-200>* {
+    border-color: #374151;
+}
+
+/* Sidebar Dark Mode */
+body.dark #sidebar {
+    background: linear-gradient(to bottom, #1f2937, #111827);
+}
