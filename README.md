@@ -1,7 +1,3 @@
-Oke, ini **daftar fitur singkat** dari dashboard admin yang kamu buat tadi (versi ringkas tapi rapi):
-
----
-
 # ✅ **Fitur-Fitur Dashboard Admin**
 
 ### **1. Sidebar Navigasi Dinamis**
